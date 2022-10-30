@@ -1,0 +1,77 @@
+.container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.redes{
+    margin-right:0.5em;
+}
+
+#linkedin{
+    transition: 0.5s;
+}
+#linkedin:hover {
+    filter: invert(87%);
+    transform:scale(1.25);
+    transition: 0.5s;
+}
+
+#github{
+    transition: 0.5s;
+}
+#github:hover {
+    filter: invert(87%);
+    transform:scale(1.25);
+    transition: 0.5s;
+}
+
+#facebook{
+    transition: 0.5s;
+}
+#facebook:hover {
+    filter: invert(87%);
+    transform:scale(1.25);
+    transition: 0.5s;
+}
+
+#logoAP{
+    width:150px;
+}
+
+img{
+    width:50px;
+    margin: 0.2em;
+}
+
+.btn{
+    border-width: medium;
+    margin-left:0.2em;
+}
+
+.btn{
+    transition: 0.5s;
+}
+.btn:hover {
+    filter: invert(87%);
+    transform:scale(1.1);
+    transition: 0.5s;
+}
+/*vista celular*/
+@media (max-width: 575px){
+.container{
+    flex-direction: column;
+}
+.redes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.redes img{
+    margin: 0.5em;
+}
+.btn{
+    border-width: medium;
+    margin:2em;
+}
+}

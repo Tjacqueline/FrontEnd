@@ -1,0 +1,24 @@
+.row{
+        padding:5% 5%;
+        color:white;
+    }
+    div{
+    color:white;
+    text-align: center;
+    align-items: center;
+    padding:5% 2% 5% 2%;
+    }
+    
+    .btn{
+        color:black;
+        transition: 0.5s;
+        border-width: medium;
+        margin-left:0.2em;
+        border-color:black;
+        background-color: white;
+    }
+    .btn:hover {    
+        filter: invert(100%);
+        transform:scale(1.1);
+        transition: 0.5s;
+    }
