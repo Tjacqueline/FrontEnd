@@ -13,7 +13,7 @@ export const environment = {
     messagingSenderId: '84716431464',
   },
   production: false,
-  URL: 'http://localhost:8080/'
+  URL: 'https://tjvbackend.herokuapp.com/'
 };
 
 /*
