@@ -9,5 +9,5 @@ export const environment = {
     messagingSenderId: '84716431464',
   },
   production: true,
-  URL: 'https://tjvbackend.herokuapp.com/'
+  URL: 'https://backendtjv.onrender.com/'
 };
